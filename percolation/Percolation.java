@@ -59,7 +59,7 @@ public class Percolation {
     // is the site (row, col) full?
     public boolean isFull(int row, int col) {
         if (!checkRange(row, col)) throw new IllegalArgumentException();
-        return uf2.find(getIndex(row, col)) == uf2.find(getTopIndex());
+        return uf2.connected(getIndex(row,col), getTopIndex());
     }
 
     // returns the number of open sites
@@ -69,7 +69,7 @@ public class Percolation {
 
     // does the system percolate?
     public boolean percolates() {
-        return uf.find(getTopIndex()) == uf.find(getBottomIndex());
+        return uf.connected(getTopIndex(), getBottomIndex());
     }
 
     private int getIndex(int row, int col) {
