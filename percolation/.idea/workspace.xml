@@ -55,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PercolationStats">
+  <component name="RunManager" selected="Application.PercolationVisualizer">
     <configuration name="Percolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Percolation" />
       <module name="Algorithms, Part I" />
@@ -74,7 +74,7 @@
     <configuration name="PercolationVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PercolationVisualizer" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="input3.txt" />
+      <option name="PROGRAM_PARAMETERS" value="input50.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,8 +86,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PercolationStats" />
         <item itemvalue="Application.PercolationVisualizer" />
+        <item itemvalue="Application.PercolationStats" />
         <item itemvalue="Application.Percolation" />
       </list>
     </recent_temporary>
@@ -114,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578217951521</updated>
       <workItem from="1578217953411" duration="235000" />
-      <workItem from="1578218228214" duration="9721000" />
+      <workItem from="1578218228214" duration="12668000" />
     </task>
     <servers />
   </component>
@@ -131,30 +131,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="423" y="214" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578226859033">
+    <state x="423" y="214" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578230674191">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="423" y="214" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1578226859033" />
+    <state x="423" y="214" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1578230674191" />
     <state x="814" y="448" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578218036294">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="814" y="448" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1578218036294" />
-    <state width="1872" height="279" key="GridCell.Tab.0.bottom" timestamp="1578227746747">
+    <state width="1872" height="279" key="GridCell.Tab.0.bottom" timestamp="1578230677961">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1872" height="279" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1578227746747" />
-    <state width="1872" height="279" key="GridCell.Tab.0.center" timestamp="1578227746747">
+    <state width="1872" height="279" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1578230677961" />
+    <state width="1872" height="279" key="GridCell.Tab.0.center" timestamp="1578230677961">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1872" height="279" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1578227746747" />
-    <state width="1872" height="279" key="GridCell.Tab.0.left" timestamp="1578227746746">
+    <state width="1872" height="279" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1578230677961" />
+    <state width="1872" height="279" key="GridCell.Tab.0.left" timestamp="1578230677960">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1872" height="279" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1578227746746" />
-    <state width="1872" height="279" key="GridCell.Tab.0.right" timestamp="1578227746747">
+    <state width="1872" height="279" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1578230677960" />
+    <state width="1872" height="279" key="GridCell.Tab.0.right" timestamp="1578230677961">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1872" height="279" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1578227746747" />
+    <state width="1872" height="279" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1578230677961" />
     <state width="1872" height="345" key="GridCell.Tab.1.bottom" timestamp="1578226650884">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>

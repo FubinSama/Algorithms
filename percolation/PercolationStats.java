@@ -1,7 +1,7 @@
 /* *****************************************************************************
  *  Name:              wfb
  *  Coursera User ID:  FubinSama@qq.com
- *  Last modified:     1/1/2019
+ *  Last modified:     5/1/2020
  **************************************************************************** */
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
@@ -16,14 +16,14 @@ public class PercolationStats {
         double[] thresholds = new double[trials];
         for (int i = 0; i < trials; i++) {
             Percolation perc = new Percolation(n);
-            int k = 0, row, col;
+            int row, col;
             while (!perc.percolates()) {
                 row = StdRandom.uniform(1, n+1);
                 col = StdRandom.uniform(1, n+1);
+                if (perc.isOpen(row, col)) continue;
                 perc.open(row, col);
-                k++;
             }
-            thresholds[i] = 1.0 * k / (n*n);
+            thresholds[i] = 1.0 * perc.numberOfOpenSites() / (n*n);
         }
         mean = StdStats.mean(thresholds);
         stddev = StdStats.stddev(thresholds);

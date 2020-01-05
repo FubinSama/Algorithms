@@ -1,7 +1,7 @@
 /* *****************************************************************************
  *  Name:              wfb
  *  Coursera User ID:  FubinSama@qq.com
- *  Last modified:     1/1/2019
+ *  Last modified:     5/1/2020
  **************************************************************************** */
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
